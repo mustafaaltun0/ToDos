@@ -1,0 +1,26 @@
+name: todos
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1 # Güncel sürümü kontrol edebilirsiniz
+  path: ^1.8.3 # Güncel sürümü kontrol edebilirsiniz
+  sqflite: ^2.2.8+4 # Güncel sürümü kontrol edebilirsiniz
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - veritabani/todos.sqlite
